@@ -1,0 +1,10 @@
+req = """pandas
+numpy
+scikit-learn
+xgboost
+joblib
+streamlit
+"""
+with open('requirements.txt', 'w') as f:
+    f.write(req)
+print("requirements.txt created!")
